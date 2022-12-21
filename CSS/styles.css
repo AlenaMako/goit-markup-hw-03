@@ -14,6 +14,26 @@
   --accent-color: #4D5AE5;
 }
 
+.container{
+  width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  text-align: center;
+  outline: 1px solid red;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul{
+  margin: 0;
+  padding-left: 0;
+}
 
 body{
     font-family: "Roboto", sans-serif;
@@ -50,11 +70,13 @@ body{
 /* -------------HEADER--------------- */
 
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-nav {
 }
 
-.logo {
+.logo{
 font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -123,23 +145,27 @@ color: var(--main-text-color);
 
 .hero {
   background-color: var(--title-color);
+  text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
+  margin-bottom: 48px;
   font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--first-title-color);
 }
 
 .hero-btn {
+display: inline-block;
+padding: 16px 32px;
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
-display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 color: var(--first-title-color);
@@ -159,6 +185,8 @@ cursor: pointer;
 /* -------------MISSION--------------- */
 
 .mission {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .mission-title {
 }
@@ -169,6 +197,8 @@ cursor: pointer;
 .mission-item {
 }
 .mission-item-title {
+margin-bottom: 8px;
+
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -186,8 +216,12 @@ color: var(--main-text-color);
 /* -------------SERVICES--------------- */
 
 .services {
+  padding-bottom: 120px;
+  text-align: center;
+
 }
 .services-title {
+margin-bottom: 72px;
 font-weight: 500;
 font-size: 36px;
 line-height: 1.11;
@@ -206,8 +240,13 @@ color: var(--title-color);
 /* -------------TEAM--------------- */
 
 .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
 }
 .team-title {
+margin-bottom: 72px;
+
 font-weight: 500;
 font-size: 36px;
 line-height: 1.11;
@@ -222,7 +261,9 @@ color: var(--title-color);
 
 .team-item {
 }
+
 .team-item-title {
+margin-bottom: 8px;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -244,6 +285,12 @@ color: var(--title-color);
 
 .footer {
   background-color: var(--title-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-logo{
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -268,19 +315,25 @@ color: #F4F4FD;
 /* -------------PAGE PORTFOLIO--------------- */
 
 .galery {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .btn-list {
+  display: inline-block;
+  margin-bottom: 72px;
 }
 .btn-item {
 }
 
 .btn {
+display: inline-block;
+padding: 12px 24px;
+
 font-family: inherit;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.50;
-display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
@@ -301,6 +354,8 @@ cursor: pointer;
 .galery-text {
 }
 .galery-title {
+margin-bottom: 8px;
+
 font-weight: 500;
 font-size: 20px;
 line-height: 1.20;
