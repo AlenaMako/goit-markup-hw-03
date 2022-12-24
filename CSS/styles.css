@@ -100,7 +100,6 @@ body{
 }
 
 .header-logo{
- margin-left: 156px;
  margin-right: 76px;
 }
 
@@ -241,14 +240,12 @@ body{
 
 .mission-list {
   display: flex;
-  
   gap: var(--item-card-gap);
-  margin-left: auto;
-  margin-right: auto;
+  
 }
 
 .mission-item {
-flex-basis: calc((100% - 72px) / 4);
+width: calc((100% - 72px) / 4);
 
 }
 .mission-item-title {
@@ -294,6 +291,7 @@ text-align: center;
 }
 
 .services-item {
+  width: calc((100% - 48px) / 3);
 }
 
 /* -------------TEAM--------------- */
@@ -319,15 +317,15 @@ text-align: center;
 
 .team-list {
   display: flex;
-  flex-basis: calc((100% - 72px) / 4);
   gap: var(--item-card-gap);
   
 }
 
 .team-item {
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-  overflow: hidden;
 
+  overflow: hidden;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   
 }
@@ -363,11 +361,12 @@ text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
   
+  
 }
 
 .footer-wrap{
   max-width: 264px;
- 
+
 }
 
 .footer-logo{
@@ -440,11 +439,13 @@ text-align: center;
 .galery-list {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc((100% - 48px) / 3);
-  gap: var(--item-card-gap);
+  column-gap: 24px;
+  row-gap: 48px;
+  
   
 }
 .galery-item {
+  width: calc((100% - 48px) / 3);
   border-bottom: 1px solid #E7E9FC;
 
 }
